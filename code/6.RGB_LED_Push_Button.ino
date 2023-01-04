@@ -20,11 +20,11 @@ void loop() {
   int btnState2 = digitalRead(btn2);
   int btnState3 = digitalRead(btn3);
 
-  Serial.print(buttonState1);
+  Serial.print(btnState1);
   Serial.print(" ");
-  Serial.print(buttonState2);
+  Serial.print(btnState2);
   Serial.print(" ");
-  Serial.println(buttonState3);
+  Serial.println(btnState3);
   
   if(btnState1 == 1){
     digitalWrite(ledRed, 1);
